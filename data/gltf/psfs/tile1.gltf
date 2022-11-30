@@ -1,0 +1,159 @@
+{
+  "asset": {
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 3189
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 1785,
+      "min": [
+        -1.0058155826493806,
+        -0.007827358619839537,
+        -1.0005467704698152
+      ],
+      "max": [
+        1.0058155826493804,
+        1.0097292619593004,
+        1.0032570362091062
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 1785,
+      "min": [
+        -37.81334743422778,
+        -0.015343833201055103,
+        -27.259344672386955
+      ],
+      "max": [
+        85.12764652491485,
+        235.00836238784106,
+        84.04880059922041
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 1785,
+      "min": [
+        -0.00035409819159951724,
+        -0.0003743535262748293
+      ],
+      "max": [
+        0.9998513953760266,
+        1.0008079032186634
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 5988
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tile1_data.bin",
+      "byteLength": 5988
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "pphilly_0532-534_525"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "textureAtlas1",
+      "uri": "tile1_img0.jpg"
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
